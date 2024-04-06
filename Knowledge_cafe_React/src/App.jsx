@@ -9,7 +9,8 @@ function App() {
 const [bookMarks,setBookMarks]=useState([]);
 
 const addBookMarks=blog=>{
-  console.log(blog);
+  const newbook =[...bookMarks,blog];
+  setBookMarks(newbook);
 }
 
   return (
@@ -18,7 +19,7 @@ const addBookMarks=blog=>{
    <Header></Header>
  <div className='md:flex max-w-7xl mx-auto'>
   <Blogs addBookMarks={addBookMarks}></Blogs>
-  <BookMarks></BookMarks>
+  <BookMarks bookMarks={bookMarks}></BookMarks>
  </div>
      
     </>
