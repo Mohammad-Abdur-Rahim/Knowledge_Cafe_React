@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://ibb.co/yBSss7s",
+      "cover": "https://i.ibb.co/8bP6ZXr/c1.png",
       "title": "The Enigmatic Garden",
       "author": "Lily Johnson",
       "author_img": "https://i.ibb.co/jJwMXcG/profile2.png",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://i.ibb.co/qFj6Vdm/Group-9.png",
+      "cover": "https://i.ibb.co/M80RzL0/c2.png",
       "title": "Echoes of Eternity",
       "author": "Alexander Smith",
       "author_img": "https://i.ibb.co/gZg5YV7/profile3.png",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://i.ibb.co/MkJLS0f/Group-10.png",
+      "cover": "https://i.ibb.co/cynGnLH/c3.png",
       "title": "Whispers in the Dark",
       "author": "Emily White",
       "author_img": "https://i.ibb.co/Mhfzx7B/profile4.png",
@@ -29,6 +29,7 @@
       "reading_time": 40,
       "hashtags": ["#horror", "#suspense"]
     }
+   
    
   ]
   
