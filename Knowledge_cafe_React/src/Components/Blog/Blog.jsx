@@ -15,7 +15,7 @@ const Blog = ({ blog, addBookMarks }) => {
                     </div>
                 </div>
                 <div>{reading_time} <span>Min Read </span>
-                    <button onClick={addBookMarks}><IoBookmarks />
+                    <button onClick={()=>addBookMarks(blog)}><IoBookmarks />
                     </button></div>
             </div>
             <div className='pb-5'>
@@ -30,6 +30,7 @@ const Blog = ({ blog, addBookMarks }) => {
     );
 };
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    addBookMarks: PropTypes.func
 }
 export default Blog;

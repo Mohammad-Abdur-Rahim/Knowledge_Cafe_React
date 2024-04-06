@@ -9,7 +9,7 @@ function App() {
 const [bookMarks,setBookMarks]=useState([]);
 
 const addBookMarks=blog=>{
-  console.log('adding book');
+  console.log(blog);
 }
 
   return (
