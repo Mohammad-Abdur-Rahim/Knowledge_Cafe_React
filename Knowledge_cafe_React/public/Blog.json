@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "cover": "https://ibb.co/yBSss7s",
+      "title": "The Enigmatic Garden",
+      "author": "Lily Johnson",
+      "author_img": "https://i.ibb.co/jJwMXcG/profile2.png",
+      "posted_date": "April 6, 2024",
+      "reading_time": 10,
+      "hashtags": ["#beginners", "#programming"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/qFj6Vdm/Group-9.png",
+      "title": "Echoes of Eternity",
+      "author": "Alexander Smith",
+      "author_img": "https://i.ibb.co/gZg5YV7/profile3.png",
+      "posted_date": "April 5, 2024",
+      "reading_time": 5,
+      "hashtags": ["#sciencefiction", "#time-travel"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/MkJLS0f/Group-10.png",
+      "title": "Whispers in the Dark",
+      "author": "Emily White",
+      "author_img": "https://i.ibb.co/Mhfzx7B/profile4.png",
+      "posted_date": "April 4, 2024",
+      "reading_time": 40,
+      "hashtags": ["#horror", "#suspense"]
+    }
+   
+  ]
+  
