@@ -8,9 +8,13 @@ import Header from './Components/Header/Header'
 function App() {
   const [reading,setReading]=useState(0);
 
-  const markRead =time=>{
+  const markRead =(id,time)=>{
 const newReadTime=reading + time;
 setReading(newReadTime);
+// remove the read bog bookmark
+const remainBookmarks = bookMarks.filter(bookMarks=>bookMarks.id !== id);
+setBookMarks(remainBookmarks);
+
   }
 
 
