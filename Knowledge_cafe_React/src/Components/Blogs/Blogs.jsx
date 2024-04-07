@@ -4,7 +4,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({addBookMarks}) => {
+const Blogs = ({addBookMarks,markRead}) => {
     const [blogs,setBlogs] =useState([]);
     useEffect(()=>{
         fetch('Blog.json')
@@ -18,7 +18,8 @@ const Blogs = ({addBookMarks}) => {
            {
             blogs.map(blog=><Blog 
                 key={blog.id} 
-                blog={blog} addBookMarks={addBookMarks}>
+                blog={blog} addBookMarks={addBookMarks}
+                markRead={markRead}>
                     
                 </Blog>)
            }
@@ -27,6 +28,7 @@ const Blogs = ({addBookMarks}) => {
 };
 Blogs.propTypes = {
     blogs: PropTypes.object.isRequired,
-    addBookMarks: PropTypes.func
+    addBookMarks: PropTypes.func,
+    markRead:PropTypes.func
 }
 export default Blogs;

@@ -6,6 +6,14 @@ import Header from './Components/Header/Header'
 
 
 function App() {
+  const [reading,setReading]=useState(0);
+
+  const markRead =time=>{
+const newReadTime=reading + time;
+setReading(newReadTime);
+  }
+
+
 const [bookMarks,setBookMarks]=useState([]);
 
 const addBookMarks=blog=>{
@@ -18,8 +26,8 @@ const addBookMarks=blog=>{
      
    <Header></Header>
  <div className='md:flex max-w-7xl mx-auto'>
-  <Blogs addBookMarks={addBookMarks}></Blogs>
-  <BookMarks bookMarks={bookMarks}></BookMarks>
+  <Blogs addBookMarks={addBookMarks} markRead={markRead}></Blogs>
+  <BookMarks bookMarks={bookMarks} reading={reading}></BookMarks>
  </div>
      
     </>
